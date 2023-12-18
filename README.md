@@ -1,11 +1,11 @@
-## <div align="center">Project name</div>
+## <div align="center">Haiku checker</div>
 
 #### <div align="center">💻 _Learning project for (..................) (date)_ </div>
 
 **_<p align="right">By Daniya Yelemessova_**</p>
 
 <p align="center">
-  <img src="images/js.png" alt="js" width="30"/>
+  <img src="./assets/images/js.png" alt="js" width="30"/>
 </p>
 
 <div><img src="" alt="screen of the program" width="50%" display="block" margin-left="auto" margin-right="auto"/></div>
@@ -64,7 +64,7 @@ describe('Name', () => {
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## <div align="center"> <img src="images/github.png" alt="github icon" width="30px"> _Link to site on Github Pages:_
+## <div align="center"> <img src="./assets/images/github.png" alt="github icon" width="30px"> _Link to site on Github Pages:_
 
 - [GitHub page link](https://github.com/DaniyaYelemessova)
 

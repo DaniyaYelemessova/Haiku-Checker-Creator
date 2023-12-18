@@ -20,7 +20,7 @@ module.exports = {
     new ESLintPlugin(),
     new CleanWebpackPlugin(), // new line
     new HtmlWebpackPlugin({
-      title: 'project name',
+      title: 'Haiku Checker',
       template: './src/index.html',
       inject: 'body'
     })
@@ -33,7 +33,22 @@ module.exports = {
           'style-loader',
           'css-loader'
         ]
-      }
+      },
+      {
+        test: /\.(gif|png|avif|jpe?g)$/,
+        type: "asset/resource",
+        generator: {
+          filename: "[name][ext]",
+          publicPath: "assets/images/",
+          outputPath: "assets/images/",
+        },
+      },
+      {
+        test:/\.html$/,
+        use: [
+          'html-loader'
+        ]
+      },
     ]
   }
 };
